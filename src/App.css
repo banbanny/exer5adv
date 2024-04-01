@@ -1,0 +1,89 @@
+/* Resetting default margins and paddings */
+* {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.container {
+  width: 30%; /* Set maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding around the content */
+  background-color: #fff; /* Set background color for the container */
+  border-radius: 8px; /* Add border radius to create a rounded container */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  color: #12372A;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none; /* Remove default input outline */
+}
+
+input:focus {
+  border-color: #539a6c; /* Change input border color on focus */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fffef3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+button {
+  margin-left: 4px;
+  background-color: #a7722c; /* Match button color with active tab */
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #686936; /* Darken button color on hover */
+}
+
+.tab {
+  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Add some space between tabs and content */
+}
+
+.tab .active {
+  background-color: #70450c;
+  border-radius: 4px;
+  padding: 8px 16px; /* Adjust active tab padding for better visual */
+  color: #fff;
+  transition: background-color 0.3s ease; 
+
+}
+.tab .active:hover {
+  background-color: #686936; /* Darken button color on hover */
+}
